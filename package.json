@@ -2,6 +2,15 @@
   "name": "miniprogram-automator-snippets",
   "displayName": "miniprogram-automator-snippets",
   "description": "miniprogram-automator-snippets",
+  "publisher": "0JARVIS0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0JARVIS0/miniprogram-automator-snippets"
+  },
+  "keywords": [
+    "miniprogram",
+    "小程序"
+  ],
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.36.0"
