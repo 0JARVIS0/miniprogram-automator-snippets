@@ -1,0 +1,391 @@
+{
+  "automator.connect": {
+    "prefix": "automator.connect",
+    "body": [
+      "automator.connect({",
+      "  wxEndpoint: '${1}'",
+      "});"
+    ]
+  },
+  "automator.launch": {
+    "prefix": "automator.launch",
+    "body": [
+      "automator.launch({",
+      "  projectPath: '${1}'",
+      "});"
+    ]
+  },
+  "miniProgram.pageStack": {
+    "prefix": "miniProgram.pageStack",
+    "body": [
+      "miniProgram.pageStack()"
+    ]
+  },
+  "miniProgram.navigateTo": {
+    "prefix": "miniProgram.navigateTo",
+    "body": [
+      "miniProgram.navigateTo('${1}')"
+    ]
+  },
+  "miniProgram.redirectTo": {
+    "prefix": "miniProgram.redirectTo",
+    "body": [
+      "miniProgram.redirectTo('${1}')"
+    ]
+  },
+  "miniProgram.navigateBack": {
+    "prefix": "miniProgram.navigateBack",
+    "body": [
+      "miniProgram.navigateBack()"
+    ]
+  },
+  "miniProgram.reLaunch": {
+    "prefix": "miniProgram.reLaunch",
+    "body": [
+      "miniProgram.reLaunch('${1}')"
+    ]
+  },
+  "miniProgram.switchTab": {
+    "prefix": "miniProgram.switchTab",
+    "body": [
+      "miniProgram.switchTab('${1}')"
+    ]
+  },
+  "miniProgram.currentPage": {
+    "prefix": "miniProgram.currentPage",
+    "body": [
+      "miniProgram.currentPage()"
+    ]
+  },
+  "miniProgram.systemInfo": {
+    "prefix": "miniProgram.systemInfo",
+    "body": [
+      "miniProgram.systemInfo()"
+    ]
+  },
+  "miniProgram.pageScrollTo": {
+    "prefix": "miniProgram.pageScrollTo",
+    "body": [
+      "miniProgram.pageScrollTo(${1})"
+    ]
+  },
+  "miniProgram.disconnect": {
+    "prefix": "miniProgram.disconnect",
+    "body": [
+      "miniProgram.disconnect()"
+    ]
+  },
+  "miniProgram.close": {
+    "prefix": "miniProgram.close",
+    "body": [
+      "miniProgram.close()"
+    ]
+  },
+  "miniProgram.callWxMethod": {
+    "prefix": "miniProgram.callWxMethod",
+    "body": [
+      "miniProgram.callWxMethod('${1}', ${2})"
+    ]
+  },
+  "miniProgram.mkWxMethod:result": {
+    "prefix": "miniProgram.mockWxMethod:result",
+    "body": [
+      "miniProgram.mockWxMethod('${1}', ${2})"
+    ]
+  },
+  "miniProgram.mkWxMethod:function": {
+    "prefix": "miniProgram.mockWxMethod:function",
+    "body": [
+      "miniProgram.callWxMethod('${1}', () => {",
+      "  ${2}",
+      "}, ${3})"
+    ]
+  },
+  "miniProgram.restoreWxMethod": {
+    "prefix": "miniProgram.restoreWxMethod",
+    "body": [
+      "miniProgram.restoreWxMethod('${1}')"
+    ]
+  },
+  "miniProgram.evaluate": {
+    "prefix": "miniProgram.evaluate",
+    "body": [
+      "miniProgram.evaluate(() => {",
+      "  ${1}",
+      "}, ${2})"
+    ]
+  },
+  "miniProgram.exposeFunction": {
+    "prefix": "miniProgram.exposeFunction",
+    "body": [
+      "miniProgram.exposeFunction('${1}', () => {",
+      "  ${2}",
+      "})"
+    ]
+  },
+  "miniProgram.remote": {
+    "prefix": "miniProgram.remote",
+    "body": [
+      "miniProgram.remote()"
+    ]
+  },
+  "miniProgram.on:console": {
+    "prefix": "miniProgram.on:console",
+    "body": [
+      "miniProgram.on('console', msg => {",
+      "  ${1}",
+      "})"
+    ]
+  },
+  "miniProgram.on:exception": {
+    "prefix": "miniProgram.on:exception",
+    "body": [
+      "miniProgram.on('exception', err => {",
+      "  ${1}",
+      "})"
+    ]
+  },
+  "page.path": {
+    "prefix": "page.path",
+    "body": [
+      "page.path"
+    ]
+  },
+  "page.query": {
+    "prefix": "page.query",
+    "body": [
+      "page.query"
+    ]
+  },
+  "page.size": {
+    "prefix": "page.size",
+    "body": [
+      "page.size()"
+    ]
+  },
+  "page.scrollTop": {
+    "prefix": "page.scrollTop",
+    "body": [
+      "page.scrollTop()"
+    ]
+  },
+  "page.$": {
+    "prefix": "page.$",
+    "body": [
+      "page.$('${1}')"
+    ]
+  },
+  "page.$$": {
+    "prefix": "page.$$",
+    "body": [
+      "page.$$('${1}')"
+    ]
+  },
+  "page.waitFor": {
+    "prefix": "page.waitFor",
+    "body": [
+      "page.waitFor(${1})"
+    ]
+  },
+  "page.data": {
+    "prefix": "page.data",
+    "body": [
+      "page.data(${1})"
+    ]
+  },
+  "page.setData": {
+    "prefix": "page.setData",
+    "body": [
+      "page.setData(${1})"
+    ]
+  },
+  "page.callMethod": {
+    "prefix": "page.callMethod",
+    "body": [
+      "page.callMethod(${1})"
+    ]
+  },
+  "element.tagName": {
+    "prefix": "element.tagName",
+    "body": [
+      "element.tagName"
+    ]
+  },
+  "element.$": {
+    "prefix": "element.$",
+    "body": [
+      "element.$('${1}')"
+    ]
+  },
+  "element.$$": {
+    "prefix": "element.$$",
+    "body": [
+      "element.$$('${1}')"
+    ]
+  },
+  "element.size": {
+    "prefix": "element.size",
+    "body": [
+      "element.size()"
+    ]
+  },
+  "element.offset": {
+    "prefix": "element.offset",
+    "body": [
+      "element.offset()"
+    ]
+  },
+  "element.text": {
+    "prefix": "element.text",
+    "body": [
+      "element.text()"
+    ]
+  },
+  "element.attribute": {
+    "prefix": "element.attribute",
+    "body": [
+      "element.attribute(${1})"
+    ]
+  },
+  "element.property": {
+    "prefix": "element.property",
+    "body": [
+      "element.property(${1})"
+    ]
+  },
+  "element.wxml": {
+    "prefix": "element.wxml",
+    "body": [
+      "element.wxml()"
+    ]
+  },
+  "element.outerWxml": {
+    "prefix": "element.outerWxml",
+    "body": [
+      "element.outerWxml()"
+    ]
+  },
+  "element.value": {
+    "prefix": "element.value",
+    "body": [
+      "element.value()"
+    ]
+  },
+  "element.style": {
+    "prefix": "element.style",
+    "body": [
+      "element.style(${1})"
+    ]
+  },
+  "element.tap": {
+    "prefix": "element.tap",
+    "body": [
+      "element.tap()"
+    ]
+  },
+  "element.longpress": {
+    "prefix": "element.longpress",
+    "body": [
+      "element.longpress()"
+    ]
+  },
+  "element.touchstart": {
+    "prefix": "element.touchstart",
+    "body": [
+      "element.touchstart({",
+      "  touches: ${1}",
+      "  changedTouches: ${2}",
+      "})"
+    ]
+  },
+  "element.touchmove": {
+    "prefix": "element.touchmove",
+    "body": [
+      "element.touchmove({",
+      "  touches: ${1}",
+      "  changedTouches: ${2}",
+      "})"
+    ]
+  },
+  "element.touchend": {
+    "prefix": "element.touchend",
+    "body": [
+      "element.touchend({",
+      "  touches: ${1}",
+      "  changedTouches: ${2}",
+      "})"
+    ]
+  },
+  "element.trigger": {
+    "prefix": "element.trigger",
+    "body": [
+      "element.trigger(${1}, ${2})"
+    ]
+  },
+  "element.input": {
+    "prefix": "element.input",
+    "body": [
+      "element.input(${1})"
+    ]
+  },
+  "element.callMethod": {
+    "prefix": "element.callMethod",
+    "body": [
+      "element.callMethod('${1}', ${2})"
+    ]
+  },
+  "element.data": {
+    "prefix": "element.data",
+    "body": [
+      "element.data(${1})"
+    ]
+  },
+  "element.setData": {
+    "prefix": "element.setData",
+    "body": [
+      "element.setData(${1})"
+    ]
+  },
+  "element.callContextMethod": {
+    "prefix": "element.callContextMethod",
+    "body": [
+      "element.callContextMethod(${1}, ${2})"
+    ]
+  },
+  "element.scrollWidth": {
+    "prefix": "element.scrollWidth",
+    "body": [
+      "element.scrollWidth()"
+    ]
+  },
+  "element.scrollHeight": {
+    "prefix": "element.scrollHeight",
+    "body": [
+      "element.scrollHeight()"
+    ]
+  },
+  "element.scrollTo": {
+    "prefix": "element.scrollTo",
+    "body": [
+      "element.scrollTo(${1}, ${2})"
+    ]
+  },
+  "element.swipeTo": {
+    "prefix": "element.swipeTo",
+    "body": [
+      "element.swipeTo(${1})"
+    ]
+  },
+  "element.moveTo": {
+    "prefix": "element.moveTo",
+    "body": [
+      "element.moveTo(${1}, ${2})"
+    ]
+  },
+  "element.slideTo": {
+    "prefix": "element.slideTo",
+    "body": [
+      "element.slideTo(${1})"
+    ]
+  }
+}
