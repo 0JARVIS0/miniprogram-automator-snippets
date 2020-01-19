@@ -387,5 +387,374 @@
     "body": [
       "element.slideTo(${1})"
     ]
+  },
+  "coverView.tagName": {
+    "prefix": "coverView.tagName",
+    "body": [
+      "coverView.tagName"
+    ]
+  },
+  "coverView.$": {
+    "prefix": "coverView.$",
+    "body": [
+      "coverView.$('${1}')"
+    ]
+  },
+  "coverView.$$": {
+    "prefix": "coverView.$$",
+    "body": [
+      "coverView.$$('${1}')"
+    ]
+  },
+  "coverView.size": {
+    "prefix": "coverView.size",
+    "body": [
+      "coverView.size()"
+    ]
+  },
+  "coverView.offset": {
+    "prefix": "coverView.offset",
+    "body": [
+      "coverView.offset()"
+    ]
+  },
+  "coverView.text": {
+    "prefix": "coverView.text",
+    "body": [
+      "coverView.text()"
+    ]
+  },
+  "coverView.attribute": {
+    "prefix": "coverView.attribute",
+    "body": [
+      "coverView.attribute(${1})"
+    ]
+  },
+  "coverView.property": {
+    "prefix": "coverView.property",
+    "body": [
+      "coverView.property(${1})"
+    ]
+  },
+  "coverView.wxml": {
+    "prefix": "coverView.wxml",
+    "body": [
+      "coverView.wxml()"
+    ]
+  },
+  "coverView.outerWxml": {
+    "prefix": "coverView.outerWxml",
+    "body": [
+      "coverView.outerWxml()"
+    ]
+  },
+  "coverView.value": {
+    "prefix": "coverView.value",
+    "body": [
+      "coverView.value()"
+    ]
+  },
+  "coverView.style": {
+    "prefix": "coverView.style",
+    "body": [
+      "coverView.style(${1})"
+    ]
+  },
+  "coverView.tap": {
+    "prefix": "coverView.tap",
+    "body": [
+      "coverView.tap()"
+    ]
+  },
+  "coverView.longpress": {
+    "prefix": "coverView.longpress",
+    "body": [
+      "coverView.longpress()"
+    ]
+  },
+  "coverView.touchstart": {
+    "prefix": "coverView.touchstart",
+    "body": [
+      "coverView.touchstart({",
+      "  touches: ${1}",
+      "  changedTouches: ${2}",
+      "})"
+    ]
+  },
+  "coverView.touchmove": {
+    "prefix": "coverView.touchmove",
+    "body": [
+      "coverView.touchmove({",
+      "  touches: ${1}",
+      "  changedTouches: ${2}",
+      "})"
+    ]
+  },
+  "coverView.touchend": {
+    "prefix": "coverView.touchend",
+    "body": [
+      "coverView.touchend({",
+      "  touches: ${1}",
+      "  changedTouches: ${2}",
+      "})"
+    ]
+  },
+  "coverView.trigger": {
+    "prefix": "coverView.trigger",
+    "body": [
+      "coverView.trigger(${1}, ${2})"
+    ]
+  },
+  "coverImage.tagName": {
+    "prefix": "coverImage.tagName",
+    "body": [
+      "coverImage.tagName"
+    ]
+  },
+  "coverImage.$": {
+    "prefix": "coverImage.$",
+    "body": [
+      "coverImage.$('${1}')"
+    ]
+  },
+  "coverImage.$$": {
+    "prefix": "coverImage.$$",
+    "body": [
+      "coverImage.$$('${1}')"
+    ]
+  },
+  "coverImage.size": {
+    "prefix": "coverImage.size",
+    "body": [
+      "coverImage.size()"
+    ]
+  },
+  "coverImage.offset": {
+    "prefix": "coverImage.offset",
+    "body": [
+      "coverImage.offset()"
+    ]
+  },
+  "coverImage.text": {
+    "prefix": "coverImage.text",
+    "body": [
+      "coverImage.text()"
+    ]
+  },
+  "coverImage.attribute": {
+    "prefix": "coverImage.attribute",
+    "body": [
+      "coverImage.attribute(${1})"
+    ]
+  },
+  "coverImage.property": {
+    "prefix": "coverImage.property",
+    "body": [
+      "coverImage.property(${1})"
+    ]
+  },
+  "coverImage.wxml": {
+    "prefix": "coverImage.wxml",
+    "body": [
+      "coverImage.wxml()"
+    ]
+  },
+  "coverImage.outerWxml": {
+    "prefix": "coverImage.outerWxml",
+    "body": [
+      "coverImage.outerWxml()"
+    ]
+  },
+  "coverImage.value": {
+    "prefix": "coverImage.value",
+    "body": [
+      "coverImage.value()"
+    ]
+  },
+  "coverImage.style": {
+    "prefix": "coverImage.style",
+    "body": [
+      "coverImage.style(${1})"
+    ]
+  },
+  "coverImage.tap": {
+    "prefix": "coverImage.tap",
+    "body": [
+      "coverImage.tap()"
+    ]
+  },
+  "coverImage.longpress": {
+    "prefix": "coverImage.longpress",
+    "body": [
+      "coverImage.longpress()"
+    ]
+  },
+  "coverImage.touchstart": {
+    "prefix": "coverImage.touchstart",
+    "body": [
+      "coverImage.touchstart({",
+      "  touches: ${1}",
+      "  changedTouches: ${2}",
+      "})"
+    ]
+  },
+  "coverImage.touchmove": {
+    "prefix": "coverImage.touchmove",
+    "body": [
+      "coverImage.touchmove({",
+      "  touches: ${1}",
+      "  changedTouches: ${2}",
+      "})"
+    ]
+  },
+  "coverImage.touchend": {
+    "prefix": "coverImage.touchend",
+    "body": [
+      "coverImage.touchend({",
+      "  touches: ${1}",
+      "  changedTouches: ${2}",
+      "})"
+    ]
+  },
+  "coverImage.trigger": {
+    "prefix": "coverImage.trigger",
+    "body": [
+      "coverImage.trigger(${1}, ${2})"
+    ]
+  },
+  "scrollView.tagName": {
+    "prefix": "scrollView.tagName",
+    "body": [
+      "scrollView.tagName"
+    ]
+  },
+  "scrollView.$": {
+    "prefix": "scrollView.$",
+    "body": [
+      "scrollView.$('${1}')"
+    ]
+  },
+  "scrollView.$$": {
+    "prefix": "scrollView.$$",
+    "body": [
+      "scrollView.$$('${1}')"
+    ]
+  },
+  "scrollView.size": {
+    "prefix": "scrollView.size",
+    "body": [
+      "scrollView.size()"
+    ]
+  },
+  "scrollView.offset": {
+    "prefix": "scrollView.offset",
+    "body": [
+      "scrollView.offset()"
+    ]
+  },
+  "scrollView.text": {
+    "prefix": "scrollView.text",
+    "body": [
+      "scrollView.text()"
+    ]
+  },
+  "scrollView.attribute": {
+    "prefix": "scrollView.attribute",
+    "body": [
+      "scrollView.attribute(${1})"
+    ]
+  },
+  "scrollView.property": {
+    "prefix": "scrollView.property",
+    "body": [
+      "scrollView.property(${1})"
+    ]
+  },
+  "scrollView.wxml": {
+    "prefix": "scrollView.wxml",
+    "body": [
+      "scrollView.wxml()"
+    ]
+  },
+  "scrollView.outerWxml": {
+    "prefix": "scrollView.outerWxml",
+    "body": [
+      "scrollView.outerWxml()"
+    ]
+  },
+  "scrollView.value": {
+    "prefix": "scrollView.value",
+    "body": [
+      "scrollView.value()"
+    ]
+  },
+  "scrollView.style": {
+    "prefix": "scrollView.style",
+    "body": [
+      "scrollView.style(${1})"
+    ]
+  },
+  "scrollView.tap": {
+    "prefix": "scrollView.tap",
+    "body": [
+      "scrollView.tap()"
+    ]
+  },
+  "scrollView.longpress": {
+    "prefix": "scrollView.longpress",
+    "body": [
+      "scrollView.longpress()"
+    ]
+  },
+  "scrollView.touchstart": {
+    "prefix": "scrollView.touchstart",
+    "body": [
+      "scrollView.touchstart({",
+      "  touches: ${1}",
+      "  changedTouches: ${2}",
+      "})"
+    ]
+  },
+  "scrollView.touchmove": {
+    "prefix": "scrollView.touchmove",
+    "body": [
+      "scrollView.touchmove({",
+      "  touches: ${1}",
+      "  changedTouches: ${2}",
+      "})"
+    ]
+  },
+  "scrollView.touchend": {
+    "prefix": "scrollView.touchend",
+    "body": [
+      "scrollView.touchend({",
+      "  touches: ${1}",
+      "  changedTouches: ${2}",
+      "})"
+    ]
+  },
+  "scrollView.trigger": {
+    "prefix": "scrollView.trigger",
+    "body": [
+      "scrollView.trigger(${1}, ${2})"
+    ]
+  },
+  "scrollView.scrollWidth": {
+    "prefix": "scrollView.scrollWidth",
+    "body": [
+      "scrollView.scrollWidth()"
+    ]
+  },
+  "scrollView.scrollHeight": {
+    "prefix": "scrollView.scrollHeight",
+    "body": [
+      "scrollView.scrollHeight()"
+    ]
+  },
+  "scrollView.scrollTo": {
+    "prefix": "scrollView.scrollTo",
+    "body": [
+      "scrollView.scrollTo(${1}, ${2})"
+    ]
   }
 }
