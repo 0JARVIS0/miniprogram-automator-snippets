@@ -81,6 +81,7 @@
   * afterAll
   * beforeEach
   * afterEach
+  * test
   * expect.toBe
   * expect.not.toBe
   * expect.toEqual

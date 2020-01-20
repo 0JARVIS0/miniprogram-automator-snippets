@@ -5297,6 +5297,14 @@
       "});"
     ]
   },
+  "test": {
+    "prefix": "test",
+    "body": [
+      "test('${1}', async () => {",
+      "  ${2}",
+      "}, ${3:timeout});"
+    ]
+  },
   "expect.toBe": {
     "prefix": "expect.toBe",
     "body": [
