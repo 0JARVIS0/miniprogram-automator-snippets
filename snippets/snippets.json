@@ -5256,5 +5256,117 @@
     "body": [
       "customComponent.setData(${1})"
     ]
+  },
+  "describe": {
+    "prefix": "describe",
+    "body": [
+      "describe('${1}', () => {",
+      "  ${2}",
+      "});"
+    ]
+  },
+  "beforeAll": {
+    "prefix": "beforeAll",
+    "body": [
+      "beforeAll(async () => {",
+      "  ${1}",
+      "}, ${2:timeout});"
+    ]
+  },
+  "afterAll": {
+    "prefix": "afterAll",
+    "body": [
+      "afterAll(async () => {",
+      "  ${1}",
+      "});"
+    ]
+  },
+  "beforeEach": {
+    "prefix": "beforeEach",
+    "body": [
+      "beforeEach(async () => {",
+      "  ${1}",
+      "}, ${2:timeout});"
+    ]
+  },
+  "afterEach": {
+    "prefix": "afterEach",
+    "body": [
+      "afterEach(async () => {",
+      "  ${1}",
+      "});"
+    ]
+  },
+  "expect.toBe": {
+    "prefix": "expect.toBe",
+    "body": [
+      "expect(${1}).toBe(${2});"
+    ]
+  },
+  "expect.not.toBe": {
+    "prefix": "expect.not.toBe",
+    "body": [
+      "expect(${1}).not.toBe(${2});"
+    ]
+  },
+  "expect.toEqual": {
+    "prefix": "expect.toEqual",
+    "body": [
+      "expect(${1}).toEqual(${2});"
+    ]
+  },
+  "expect.not.toEqual": {
+    "prefix": "expect.not.toEqual",
+    "body": [
+      "expect(${1}).not.toEqual(${2});"
+    ]
+  },
+  "expect.toBeCloseTo": {
+    "prefix": "expect.toBeCloseTo",
+    "body": [
+      "expect(${1}).toBeCloseTo(${2});"
+    ]
+  },
+  "expect.toBeNull": {
+    "prefix": "expect.toBeNull",
+    "body": [
+      "expect(${1}).toBeNull();"
+    ]
+  },
+  "expect.not.toBeNull": {
+    "prefix": "expect.not.toBeNull",
+    "body": [
+      "expect(${1}).not.toBeNull();"
+    ]
+  },
+  "expect.toBeDefind": {
+    "prefix": "expect.toBeDefined",
+    "body": [
+      "expect(${1}).toBeDefined();"
+    ]
+  },
+  "expect.toBeUndefined": {
+    "prefix": "expect.toBeUndefined",
+    "body": [
+      "expect(${1}).toBeUndefined();"
+    ]
+  },
+  "expect.toBeNaN": {
+    "prefix": "expect.toBeNaN",
+    "body": [
+      "expect(${1}).toBeNaN();"
+    ]
+  },
+  "expect.toBeTruthy": {
+    "prefix": "expect.toBeTruthy",
+    "body": [
+      "expect(${1}).toBeTruthy();"
+    ]
+  },
+  "expect.toBeFalsy": {
+    "prefix": "expect.toBeFalsy",
+    "body": [
+      "expect(${1}).toBeFalsy();"
+    ]
   }
 }
